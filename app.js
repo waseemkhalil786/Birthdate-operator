@@ -1,3 +1,8 @@
+let greetingWelcome = prompt("Enter Your Name");
+document.getElementById("greetingWelcome").innerText =
+"Welcome 😊 " + greetingWelcome;
+console.log( greetingWelcome)
+
 let input = document.getElementById("Date-input");
 let Year = document.getElementById("Year");
 let Month = document.getElementById("Month");
@@ -32,7 +37,8 @@ function calnextBirthday() {
   let leftmins = Math.ceil(difference / (1000 * 60));
 
   // console.log( leftDays);
-  Year.innerHTML = "Your next birthday is in " + leftDays + "Days";
-  Month.innerHTML = "And in " + leftHours + "Hours";
-  Days.innerHTML = "And in " + leftmins + "Minuts";
+  Year.innerHTML = "Your next birthday  " + leftDays + " Days";
+  Month.innerHTML = "And in " + leftHours + " Hours";
+  Days.innerHTML = "And in " + leftmins + " Minuts";
 };
+
