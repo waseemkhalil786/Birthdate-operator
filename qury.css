@@ -1,0 +1,30 @@
+@media only screen and (max-width: 600px) {
+    body{
+        background-color: aquamarine;
+    }
+    .container{
+        margin-left: -55px;
+        
+    }
+    #greetingWelcome{
+        width: max-content;
+        margin-left: 35px;
+    }
+    .input-wrapper{
+        width: 250px;
+        margin-left: 6px;
+    }
+    .output-wrapper div {
+        width: 150px;
+        font-size: 15px;
+    }
+    span{
+        /* width: max-content; */
+        height: max-content;
+    }
+    p{
+        font-size: 13px;
+        color: rgba(255, 255, 255, 0.986);
+        margin-left: -10px        
+    };
+}
